@@ -3,7 +3,7 @@ using Accounts;
 public class Program{
 
 public static void Main(){
-    SavingsAccount savingsAccount=new SavingsAccount(1001,5);
+    SavingsAccount savingsAccount=new SavingsAccount(1001,3);
     savingsAccount.Deposit(1500);
     savingsAccount.DisplayAccountDetails();
     savingsAccount.CalculatedInterest();
